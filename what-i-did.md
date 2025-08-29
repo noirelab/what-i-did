@@ -21,3 +21,4 @@
     - Fullscreen: Super + F
     - Minimize: Super + M
     - Maximize: Super + Shift + M
+    - Toggle desktop icons: Ctrl + Alt + I -> bash -c 'v=$(gsettings get org.nemo.desktop show-desktop-icons); if [ "$v" = true ]; then gsettings set org.nemo.desktop show-desktop-icons false; else gsettings set org.nemo.desktop show-desktop-icons true; fi'
